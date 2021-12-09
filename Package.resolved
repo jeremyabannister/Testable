@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ErrorMessage",
+        "repositoryURL": "https://github.com/jeremyabannister/ErrorMessage",
+        "state": {
+          "branch": null,
+          "revision": "ca71df3b26edae39ccd949fc2a763f38a91635f5",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "ExpressionErgonomics",
+        "repositoryURL": "https://github.com/jeremyabannister/ExpressionErgonomics",
+        "state": {
+          "branch": null,
+          "revision": "eaf3f096129ba5a3f7cf2afd821c26a57c47da9b",
+          "version": "0.1.5"
+        }
+      },
+      {
+        "package": "FoundationTestToolkit",
+        "repositoryURL": "https://github.com/jeremyabannister/FoundationTestToolkit",
+        "state": {
+          "branch": null,
+          "revision": "c99e21c53fe94c540cf703fa662cf55cd3edaca6",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "SingleTypeTestCase",
+        "repositoryURL": "https://github.com/jeremyabannister/SingleTypeTestCase",
+        "state": {
+          "branch": null,
+          "revision": "dc27986f20a91cf2acc0d537cabee98539dee40b",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "XCTestTestToolkit",
+        "repositoryURL": "https://github.com/jeremyabannister/XCTestTestToolkit",
+        "state": {
+          "branch": null,
+          "revision": "85c3d97e4b3dd0bc7a1834e3fa08ee4061de3c51",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
