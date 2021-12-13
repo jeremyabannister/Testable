@@ -7,4 +7,4 @@
 
 ///
 @_exported import Testable
-@_exported import XCTestTestToolkit
+@_exported import XCTestToolkit

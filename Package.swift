@@ -16,30 +16,22 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/jeremyabannister/ExpressionErgonomics",
-            from: "0.1.5"
-        ),
-        .package(
             url: "https://github.com/jeremyabannister/ErrorMessage",
-            from: "0.1.0"
+            from: "0.1.1"
         ),
         .package(
-            url: "https://github.com/jeremyabannister/FoundationTestToolkit",
-            from: "0.1.0"
-        ),
-        .package(
-            url: "https://github.com/jeremyabannister/XCTestTestToolkit",
-            from: "0.1.0"
+            url: "https://github.com/jeremyabannister/XCTestToolkit",
+            from: "0.1.2"
         ),
     ],
     targets: [
         .target(
             name: "Testable",
-            dependencies: ["ErrorMessage", "ExpressionErgonomics", "FoundationTestToolkit", "XCTestTestToolkit"]
+            dependencies: ["ErrorMessage"]
         ),
         .target(
             name: "TestableTestToolkit",
-            dependencies: ["Testable", "XCTestTestToolkit"]
+            dependencies: ["Testable", "XCTestToolkit"]
         ),
         .testTarget(
             name: "Testable-tests",
