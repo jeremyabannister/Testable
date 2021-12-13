@@ -27,11 +27,11 @@ let package = Package(
     targets: [
         .target(
             name: "Testable",
-            dependencies: ["ErrorMessage"]
+            dependencies: ["ErrorMessage", "XCTestToolkit"]
         ),
         .target(
             name: "TestableTestToolkit",
-            dependencies: ["Testable", "XCTestToolkit"]
+            dependencies: ["Testable"]
         ),
         .testTarget(
             name: "Testable-tests",
