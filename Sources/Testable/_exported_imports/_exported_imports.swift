@@ -7,3 +7,4 @@
 
 ///
 @_exported import ErrorMessage
+@_exported import XCTestToolkit
